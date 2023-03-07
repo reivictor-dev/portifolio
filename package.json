@@ -1,6 +1,5 @@
 {
   "name": "portifolio",
-  "homepage": "http://victordevportfolio.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
