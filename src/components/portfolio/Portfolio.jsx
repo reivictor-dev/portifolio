@@ -1,31 +1,34 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/Logo.png'
+import gameExemplePic from '../../assets/pics-exemples/game-pic-exemple.png'
+import appDespPersonal from '../../assets/pics-exemples/app-desp-personal-exemple.png';
+import nodeExemple from '../../assets/pics-exemples/node-exemple.png'
+import agendaExemple from '../../assets/pics-exemples/agenda-exemple.png'
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: 'Title Project',
-    github: 'https://github.com/reivictor-dev'
+    image: gameExemplePic,
+    title: 'Simple Game with Vanilla Js',
+    github: 'https://gamawithjsvnl.netlify.app/inicio.html'
   },
   {
     id: 2,
-    image: IMG1,
+    image: appDespPersonal,
     title: 'Title Project',
-    github: 'https://github.com/reivictor-dev'
+    github: 'https://organizationapp.netlify.app'
   },
   {
     id: 3,
-    image: IMG1,
-    title: 'Title Project',
-    github: 'https://github.com/reivictor-dev'
+    image: nodeExemple,
+    title: 'Apirest with NODE.JS',
+    github: 'https://github.com/reivictor-dev/apirestnode'
   },
   {
     id: 4,
-    image: IMG1,
-    title: 'Title Project',
-    github: 'https://github.com/reivictor-dev'
+    image: agendaExemple,
+    title: 'A project with MongoDB Atlas and EJS',
+    github: 'https://github.com/reivictor-dev/Project-agenda'
   },
 
 ]
@@ -46,7 +49,7 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <div className="portfolio_item-cta">
 
-                  <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
+                  <a href={github} className='btn' target='_blank' rel="noreferrer">LINK</a>
                 </div>
               </article>
             )

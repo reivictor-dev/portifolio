@@ -45,7 +45,9 @@
     color: var(--color-primary);
     margin-top: 2px;
 }
-
+.none {
+    display: none;
+}
 .service_list p {
     font-size: .9rem;
 }
