@@ -34,10 +34,10 @@ const Contact = () => {
             <a href="mailto:reivictor.dev@gmail.com" target='_blank' rel="noreferrer">Send a message</a>
           </article>
 
-          <article className="contact_option">
+          <article className="covscode-file://vscode-app/c:/Users/reivi/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmlntact_option">
             <FaWhatsapp className='contact_option-icon'/>
             <h4>WhatsApp</h4>
-            <h5>+5521998590774</h5>
+            <h5>Click below</h5>
             <a href="https://api.whatsapp.com/send?phone=5521998590774" target='_blank' rel="noreferrer">Send a message</a>
           </article>
         </div>
