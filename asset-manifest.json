@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.c2aa6096.css",
-    "main.js": "/portifolio/static/js/main.289b8cee.js",
+    "main.css": "/portifolio/static/css/main.347a1706.css",
+    "main.js": "/portifolio/static/js/main.b5ff67c5.js",
+    "static/media/game-pic-exemple.png": "/portifolio/static/media/game-pic-exemple.b62e6fdd8b55aa9cbfe5.png",
     "static/media/me-bg-green.png": "/portifolio/static/media/me-bg-green.563f4fb6237b9310a039.png",
     "static/media/me.png": "/portifolio/static/media/me.2d31b0ada4a9706e9e5f.png",
-    "static/media/CV.pdf": "/portifolio/static/media/CV.a1876ec529baf82858e3.pdf",
-    "static/media/Logo.png": "/portifolio/static/media/Logo.0b38964dc96fb5a75bb9.png",
+    "static/media/resume.pdf": "/portifolio/static/media/resume.b753ac96b760fc4cd010.pdf",
+    "static/media/agenda-exemple.png": "/portifolio/static/media/agenda-exemple.1aaec2588335fea5ea83.png",
+    "static/media/app-desp-personal-exemple.png": "/portifolio/static/media/app-desp-personal-exemple.9b3115bcfd71bcdf9426.png",
     "index.html": "/portifolio/index.html",
-    "main.c2aa6096.css.map": "/portifolio/static/css/main.c2aa6096.css.map",
-    "main.289b8cee.js.map": "/portifolio/static/js/main.289b8cee.js.map"
+    "main.347a1706.css.map": "/portifolio/static/css/main.347a1706.css.map",
+    "main.b5ff67c5.js.map": "/portifolio/static/js/main.b5ff67c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2aa6096.css",
-    "static/js/main.289b8cee.js"
+    "static/css/main.347a1706.css",
+    "static/js/main.b5ff67c5.js"
   ]
 }
