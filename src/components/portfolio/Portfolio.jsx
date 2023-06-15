@@ -4,6 +4,7 @@ import gameExemplePic from '../../assets/pics-exemples/game-pic-exemple.png'
 import appDespPersonal from '../../assets/pics-exemples/app-desp-personal-exemple.png';
 import nodeExemple from '../../assets/pics-exemples/node-exemple.png'
 import agendaExemple from '../../assets/pics-exemples/agenda-exemple.png'
+import getapetnode from '../../assets/pics-exemples/getapetnode.png'
 
 const data = [
   {
@@ -15,7 +16,7 @@ const data = [
   {
     id: 2,
     image: appDespPersonal,
-    title: 'Title Project',
+    title: 'Personal Organization App',
     github: 'https://organizationapp.netlify.app'
   },
   {
@@ -30,7 +31,12 @@ const data = [
     title: 'A project with MongoDB Atlas and EJS',
     github: 'https://github.com/reivictor-dev/Project-agenda'
   },
-
+  {
+    id: 5,
+    image: getapetnode,
+    title: 'A big fullstack project, wich I used the most used current technologies.',
+    github: 'https://github.com/reivictor-dev/fullstackProject-getapet'
+  },
 ]
 const Portfolio = () => {
   return (
@@ -38,11 +44,13 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
+
       <div className="container portfolio_container">
         {
           data.map(({ id, image, title, github }) => {
             return (
               <article key={id} className='portfolio_item'>
+                
                 <div className="portfolio_item-image">
                   <img src={image} alt={title} />
                 </div>
@@ -51,6 +59,7 @@ const Portfolio = () => {
 
                   <a href={github} className='btn' target='_blank' rel="noreferrer">LINK</a>
                 </div>
+              
               </article>
             )
           })

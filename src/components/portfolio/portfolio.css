@@ -24,7 +24,11 @@
 .portfolio_item-image{
     border-radius: 1.5rem;
     overflow: hidden;
-    
+}
+
+.portfolio_item-image img {
+   max-width: 22rem;
+   min-height: 16rem;
 }
 
 .portfolio_item h3 {
