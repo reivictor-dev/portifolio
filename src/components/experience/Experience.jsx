@@ -18,7 +18,7 @@ const Experience = () => {
               <AiFillCheckCircle className='experience_details-icon' />
               <div>
                 <h4>HTML</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Advanced</small>
               </div>
             </article>
 
@@ -26,7 +26,7 @@ const Experience = () => {
               <AiFillCheckCircle className='experience_details-icon' />
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Intermediate</small>
+                <small className='text-light'>Advanced</small>
               </div>
             </article>
 
@@ -73,8 +73,24 @@ const Experience = () => {
             <article className='experience_details'>
               <AiFillCheckCircle className='experience_details-icon' />
               <div>
+                <h4>Java SpringBoot</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <AiFillCheckCircle className='experience_details-icon' />
+              <div>
+                <h4>Python Django</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <AiFillCheckCircle className='experience_details-icon' />
+              <div>
                 <h4>MongoDB</h4>
-                <small className='text-light'>Basic</small>
+                
               </div>
             </article>
 
@@ -82,7 +98,15 @@ const Experience = () => {
               <AiFillCheckCircle className='experience_details-icon' />
               <div>
                 <h4>MySQL</h4>
-                <small className='text-light'>Basic</small>
+                
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <AiFillCheckCircle className='experience_details-icon' />
+              <div>
+                <h4>SQLite</h4>
+                
               </div>
             </article>
           </div>

@@ -1,17 +1,24 @@
 import React from 'react'
 import './portfolio.css'
-import gameExemplePic from '../../assets/pics-exemples/game-pic-exemple.png'
+import gameExamplePic from '../../assets/pics-exemples/game-pic-example.png'
 import appDespPersonal from '../../assets/pics-exemples/app-desp-personal-exemple.png';
-import nodeExemple from '../../assets/pics-exemples/node-exemple.png'
-import agendaExemple from '../../assets/pics-exemples/agenda-exemple.png'
+import nodeExample from '../../assets/pics-exemples/node-example.png'
+import agendaExample from '../../assets/pics-exemples/agenda-example.png'
 import getapetnode from '../../assets/pics-exemples/getapetnode.png'
+import churchwebsite from '../../assets/pics-exemples/church-website-example-django.png'
 
 const data = [
   {
     id: 1,
-    image: gameExemplePic,
+    image: gameExamplePic,
     title: 'Simple Game with Vanilla Js',
     github: 'https://gamawithjsvnl.netlify.app/inicio.html'
+  },
+  {
+    id: 6,
+    image: churchwebsite,
+    title: 'A volunteer project for a local church, where church members can connect and interact with themselves(under construction)',
+    github: 'https://church-app-production.up.railway.app'
   },
   {
     id: 2,
@@ -21,13 +28,13 @@ const data = [
   },
   {
     id: 3,
-    image: nodeExemple,
+    image: nodeExample,
     title: 'Apirest with NODE.JS',
     github: 'https://github.com/reivictor-dev/apirestnode'
   },
   {
     id: 4,
-    image: agendaExemple,
+    image: agendaExample,
     title: 'A project with MongoDB Atlas and EJS',
     github: 'https://github.com/reivictor-dev/Project-agenda'
   },
@@ -37,6 +44,7 @@ const data = [
     title: 'A big fullstack project, wich I used the most used current technologies.',
     github: 'https://github.com/reivictor-dev/fullstackProject-getapet'
   },
+  
 ]
 const Portfolio = () => {
   return (
